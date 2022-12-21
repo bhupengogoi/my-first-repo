@@ -1,9 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap");
+
+:root{
+    --primary-color: #c026d3;
+}
+
 body{
-    color: red;
+    font-family: 'Hanken Grotesk', sans-serif;
 }
-h1{
-    color: blue;
+
+
+/*container*/
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
-h2{
-    color: green;
+.container-center{
+    max-width: 600px;
+    margin: auto;
+}
+
+/** links**/
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+.primary-link{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+.secondary-link{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
 }
