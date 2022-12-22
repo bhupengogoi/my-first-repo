@@ -3,6 +3,7 @@
 :root{
     --primary-color: #c026d3;
     --grey: #a1a1aa;
+    --off-white: #f3f4f6;
 }
 
 body{
@@ -80,7 +81,22 @@ hr{
 .hero .hero-heading{
     padding-top: 1rem;
     color: var(--grey);
+    text-align: center;
 }
 .heading-inverted{
     color: var(--primary-color);
 }
+
+/**sections**/
+.section{
+    padding: 2rem;
+}
+.section h1 {
+    text-align: center;
+}
+
+.ow{
+    background-color: var(--off-white);
+}
+
+
