@@ -60,6 +60,7 @@ hr {
 }
 .navigation .nav-pills {
   text-align: right;
+  margin-top: 0%;
 }
 .navigation .link {
   color: white;
